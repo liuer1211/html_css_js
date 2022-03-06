@@ -16,8 +16,12 @@ function loginSubmit() {
       name: name,
       age: age,
     },
-    //响应体结果
+    timeout:10000, // 超时10s
+    // 响应体结果
     // dataType: 'json',
+    // 请求之前的回调
+    beforeSend: function() {
+    },
     contentType:'application/json;charset=UTF-8',
     error : function(request) {
       console.log(request)
