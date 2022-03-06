@@ -1,0 +1,39 @@
+/* 主体 */
+.head-main {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+.head-main-left {
+
+}
+.head-main-right {
+  float: right;
+}
+.head-main-clear {
+  clear: both;
+}
+.head-main-right-login {
+  cursor: pointer;
+}
+.head-main-right-outLogin {
+  cursor: pointer;
+}
+
+/* 左侧菜单主体 */
+.menu-main {
+
+}
+.menu-main-model {
+  
+}
+.menu-main-model-parent {
+  padding: 8px 14px;
+  cursor: pointer;
+}
+.menu-main-model-child {
+  display: none;
+}
+.menu-main-model-child > a{
+  padding: 4px 26px;
+  display: block;
+}

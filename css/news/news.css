@@ -1,0 +1,26 @@
+/* 头部主体 */
+.home-main {
+
+}
+.home-main-top {
+
+}
+.home-main-content {
+
+}
+.home-main-content-left {
+  width: 300px;
+  height: 200px;
+  background-color: aliceblue;
+  float: left;
+}
+.home-main-content-right {
+  width: 900px;
+  height: 200px;
+  background-color: bisque;
+  margin-left: 300px;
+}
+.home-main-content-clear {
+  clear: both;
+}
+

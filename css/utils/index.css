@@ -1,0 +1,46 @@
+html,body{
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+
+/*包含以下四种的链接*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*正常的未被访问过的链接*/
+a:link {
+  text-decoration: none;
+}
+
+/*已经访问过的链接*/
+a:visited {
+  text-decoration: none;
+}
+
+/*鼠标划过(停留)的链接*/
+a:hover {
+  text-decoration: none;
+}
+
+/* 正在点击的链接*/
+a:active {
+  text-decoration: none;
+}
